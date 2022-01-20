@@ -22,6 +22,7 @@ require "govuk_tech_docs/unique_identifier_extension"
 require "govuk_tech_docs/unique_identifier_generator"
 require "govuk_tech_docs/warning_text_extension"
 require "govuk_tech_docs/api_reference/api_reference_extension"
+require "govuk_tech_docs/http_prefix_extension"
 
 module GovukTechDocs
   # Configure the tech docs template
@@ -65,6 +66,7 @@ module GovukTechDocs
     context.activate :unique_identifier
     context.activate :warning_text
     context.activate :api_reference
+    context.activate :sass_http_prefix
 
     context.helpers do
       include GovukTechDocs::TableOfContents::Helpers
