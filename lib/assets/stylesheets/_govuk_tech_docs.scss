@@ -1,4 +1,4 @@
-$govuk-assets-path: "/assets/govuk/assets/" !default;
+$govuk-assets-path: asset-path("/assets/govuk/assets/") !default;
 
 // Include only the bits of GOV.UK Frontend we need
 $govuk-new-link-styles: true;
