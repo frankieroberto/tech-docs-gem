@@ -6,6 +6,7 @@
 
 - [#197: Assets: Support Github pages / http_prefix](https://github.com/alphagov/tech-docs-gem/pull/197)
 - [#198: Search: Support Github pages / http_prefix](https://github.com/alphagov/tech-docs-gem/pull/198)
+- [#292: Add code to automatically prefix govuk-frontend assets path with http prefix](https://github.com/alphagov/tech-docs-gem/pull/292)
 
 Thanks [@odlp](https://github.com/odlp) for contributing to this issue and its solution!
 
