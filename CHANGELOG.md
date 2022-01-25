@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### Fixes
+
+- [#197: Assets: Support Github pages / http_prefix](https://github.com/alphagov/tech-docs-gem/pull/197)
+- [#198: Search: Support Github pages / http_prefix](https://github.com/alphagov/tech-docs-gem/pull/198)
+
+Thanks [@odlp](https://github.com/odlp) for contributing to this issue and its solution!
+
 ## 3.1.0
 
 ### New features
